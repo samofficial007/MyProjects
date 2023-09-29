@@ -1,6 +1,8 @@
 <h1 align="center">Hi 👋, I'm Sameer Sambhare</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
+<h4 align="center">Here, you'll find my website projects that I have made using HTML, CSS and Javascript.</h4>
+
 <h1 align="center" text-decoration="underline">MY PROJECTS</h1>
 
 College Website- https://iitachalpur.netlify.app/
