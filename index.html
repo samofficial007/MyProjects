@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBCOURSE.in</title>
+    <link rel="shortcut icon" href="img/icont.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!------MADE BY Sameer Sambhare----Copyrighted site-->
+    <section class="page">
+    <div class="metasheet">
+        <div class="navbar">
+            <img src="img/ssdm.png" class="logo">
+            <div class="navbox">
+                <div id="selector">
+                    <p id="selecttext">Select Options</p>
+                    <img src="img/add.png" id="addicon">
+                </div>
+                <ul id="list" class="hide">
+                    <li><div class="options"><a href="$">Courses</a></div></li>
+                    <li><div class="options"><a href="%">Payments</a></div></li>
+                    <li><div class="options"><a href="#">Subscription</a></div></li>
+                    <li><div class="options"><a href="#">Downloads</a></div></li>
+                    <li><div class="options"><a href="#">Account</a></div></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Learn Building Website</h1>
+            <p>With so much trade and entertainment occurring on the internet, knowledge of web design is a highly sought after skill. Whether interested<br> in building your own site or looking into a career in web building, a web design course can teach you how<br> to create web pages like a professional. Join millions of learners and begin a course on Webverse now.</p>
+        </div>
+        <div class="button">
+            <a href="%">Register Now To Learn More</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="benefits">
+            <img src="img/benefits2.jpg">
+            <p>Coder</p>
+        </div>
+        <div class="benefits">
+            <img src="img/benefits3.jpg">
+            <p>Developer</p>
+        </div>
+        <div class="benefits">
+            <img src="img/benefits4.jpg">
+            <p>Designer</p>
+        </div>
+    </div>
+    <div class="content2">
+        <div class="text">
+            <h1>So what are the technologies & languages needed?</h1>
+            <p> Languages:
+                <br>
+                <br>
+                HTML:
+                <br>
+                <br>
+                One of the basic expectations from an aspiring developer as well is the knowledge of HTML. HTML is the abbreviation for Hyper Text Markup Language.A front end language used to design the front end portion of web pages using markup language. HTML combines and gives the best of Hypertext and Markup language. The markup language is used to define the text documentation within tag which defines the structure of web pages. On the other hand, Hypertext defines the link between the web pages
+                <br>
+                <br>
+                CSS:
+                <br>
+                <br>
+                One of the popular front end languages is the CSS(Cascading Style Sheets). The objectivity behind the language for simplifying the process of making web pages presentable. CSS allows you to apply styles to web pages and provides the freedom to do this independent of the HTML.
+                <br>
+                <br>
+                JavaScript:
+                <br>
+                <br>
+                The clear winner among the full stack developers as a front end language is the heer simplicity JS brings along as you shift between technologies. JavaScript enabled the developers to provide an interactive experience for the user. Enhancing the functionality of a website was where Java script came out to be a winner among the front end languages.
+                </p>
+        </div>
+        <img src="img/image2.jpg">
+    </div>
+    <section class="ending">
+        <div class="contact1">
+            <h1>Learning</h1>
+            <ul>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Languages</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+        <div class="contact2">
+            <h1>Community</h1>
+            <ul>
+            <li><a href="#">Internships</a></li>
+            <li><a href="#">Earnings</a></li>
+            <li><a href="#">Oppotunities</a></li>
+            <li><a href="#">Contact</a></li>
+            <ul>
+        </div>
+        <div class="contact3">
+            <h1>Accounts</h1>
+            <ul>
+                <li><a href="index2.html">Login</a></li>
+                <li><a href="index2.html">Sign up</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="endbox">
+        <div class="border">
+            <div class="boxe"></div>
+        </div>
+        <div class="rights">
+            <p>©Webverse, 2022</p>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+            </ul>
+        </div>
+    </section>
+    </section>
+
+    <!--------------------JavaScript For Menu----------------------------->
+    <script>
+
+        var selector = document.getElementById("selector");
+        var selecttext = document.getElementById("selecttext");
+        var options = document.getElementsByClassName("options");
+        var list = document.getElementById("list");
+        var addicon = document.getElementById("addicon");
+
+        selector.onclick = function(){
+            list.classList.toggle("hide");
+            addicon.classList.toggle("rotate");
+
+        }
+
+        for(option of options){
+            option.onclick = function(){
+                selecttext.innerHTML = this.textContent;
+                list.classList.toggle("hide");
+                addicon.classList.toggle("rotate");
+            }
+        }
+
+    </script>
+
+</body>
+</html>
